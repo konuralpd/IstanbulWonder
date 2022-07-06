@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A41AA728761D33004E740D /* IstanbulWonderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41AA628761D33004E740D /* IstanbulWonderApp.swift */; };
+		04A41AA928761D33004E740D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41AA828761D33004E740D /* ContentView.swift */; };
+		04A41AAB28761D37004E740D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A41AAA28761D37004E740D /* Assets.xcassets */; };
+		04A41AAE28761D37004E740D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A41AAD28761D37004E740D /* Preview Assets.xcassets */; };
+		04A41AB528761D61004E740D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A41AB428761D61004E740D /* Launch Screen.storyboard */; };
+		04A41AB928762170004E740D /* IstanbulModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41AB828762170004E740D /* IstanbulModel.swift */; };
+		04A41ABC287621AB004E740D /* IstanbulData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41ABB287621AB004E740D /* IstanbulData.swift */; };
+		04A41ABF28762474004E740D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41ABE28762474004E740D /* CardView.swift */; };
+		04A41AC1287627B9004E740D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41AC0287627B9004E740D /* HeaderView.swift */; };
+		04A41AC328762C6B004E740D /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41AC228762C6B004E740D /* FooterView.swift */; };
+		04A41AC628762EE3004E740D /* HeaderComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41AC528762EE3004E740D /* HeaderComponents.swift */; };
+		04A41AC828762F6D004E740D /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41AC728762F6D004E740D /* GuideComponent.swift */; };
+		04A41ACA287632C2004E740D /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41AC9287632C2004E740D /* GuideView.swift */; };
+		04A41ACC28763B17004E740D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41ACB28763B17004E740D /* InfoView.swift */; };
+		04A41ACE28763BAC004E740D /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A41ACD28763BAC004E740D /* TitleModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A41AA328761D33004E740D /* IstanbulWonder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IstanbulWonder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A41AA628761D33004E740D /* IstanbulWonderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstanbulWonderApp.swift; sourceTree = "<group>"; };
+		04A41AA828761D33004E740D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04A41AAA28761D37004E740D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A41AAD28761D37004E740D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04A41AB428761D61004E740D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		04A41AB628761FD5004E740D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04A41AB828762170004E740D /* IstanbulModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstanbulModel.swift; sourceTree = "<group>"; };
+		04A41ABB287621AB004E740D /* IstanbulData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstanbulData.swift; sourceTree = "<group>"; };
+		04A41ABE28762474004E740D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		04A41AC0287627B9004E740D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		04A41AC228762C6B004E740D /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		04A41AC528762EE3004E740D /* HeaderComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponents.swift; sourceTree = "<group>"; };
+		04A41AC728762F6D004E740D /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		04A41AC9287632C2004E740D /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		04A41ACB28763B17004E740D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		04A41ACD28763BAC004E740D /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A41AA028761D33004E740D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A41A9A28761D33004E740D = {
+			isa = PBXGroup;
+			children = (
+				04A41AA528761D33004E740D /* IstanbulWonder */,
+				04A41AA428761D33004E740D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A41AA428761D33004E740D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A41AA328761D33004E740D /* IstanbulWonder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A41AA528761D33004E740D /* IstanbulWonder */ = {
+			isa = PBXGroup;
+			children = (
+				04A41AC428762ED2004E740D /* Component */,
+				04A41ABA287621A3004E740D /* Data */,
+				04A41AB728762166004E740D /* Model */,
+				04A41AB628761FD5004E740D /* Info.plist */,
+				04A41AA628761D33004E740D /* IstanbulWonderApp.swift */,
+				04A41ABD28762465004E740D /* View */,
+				04A41AAA28761D37004E740D /* Assets.xcassets */,
+				04A41AAC28761D37004E740D /* Preview Content */,
+				04A41AB428761D61004E740D /* Launch Screen.storyboard */,
+			);
+			path = IstanbulWonder;
+			sourceTree = "<group>";
+		};
+		04A41AAC28761D37004E740D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04A41AAD28761D37004E740D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04A41AB728762166004E740D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A41AB828762170004E740D /* IstanbulModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A41ABA287621A3004E740D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04A41ABB287621AB004E740D /* IstanbulData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		04A41ABD28762465004E740D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A41AA828761D33004E740D /* ContentView.swift */,
+				04A41ABE28762474004E740D /* CardView.swift */,
+				04A41AC0287627B9004E740D /* HeaderView.swift */,
+				04A41AC228762C6B004E740D /* FooterView.swift */,
+				04A41AC9287632C2004E740D /* GuideView.swift */,
+				04A41ACB28763B17004E740D /* InfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A41AC428762ED2004E740D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				04A41AC528762EE3004E740D /* HeaderComponents.swift */,
+				04A41AC728762F6D004E740D /* GuideComponent.swift */,
+				04A41ACD28763BAC004E740D /* TitleModifier.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A41AA228761D33004E740D /* IstanbulWonder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A41AB128761D37004E740D /* Build configuration list for PBXNativeTarget "IstanbulWonder" */;
+			buildPhases = (
+				04A41A9F28761D33004E740D /* Sources */,
+				04A41AA028761D33004E740D /* Frameworks */,
+				04A41AA128761D33004E740D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IstanbulWonder;
+			productName = IstanbulWonder;
+			productReference = 04A41AA328761D33004E740D /* IstanbulWonder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A41A9B28761D33004E740D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					04A41AA228761D33004E740D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 04A41A9E28761D33004E740D /* Build configuration list for PBXProject "IstanbulWonder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A41A9A28761D33004E740D;
+			productRefGroup = 04A41AA428761D33004E740D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A41AA228761D33004E740D /* IstanbulWonder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A41AA128761D33004E740D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A41AB528761D61004E740D /* Launch Screen.storyboard in Resources */,
+				04A41AAE28761D37004E740D /* Preview Assets.xcassets in Resources */,
+				04A41AAB28761D37004E740D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A41A9F28761D33004E740D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A41AC628762EE3004E740D /* HeaderComponents.swift in Sources */,
+				04A41ACC28763B17004E740D /* InfoView.swift in Sources */,
+				04A41AA928761D33004E740D /* ContentView.swift in Sources */,
+				04A41ACE28763BAC004E740D /* TitleModifier.swift in Sources */,
+				04A41AC328762C6B004E740D /* FooterView.swift in Sources */,
+				04A41AC1287627B9004E740D /* HeaderView.swift in Sources */,
+				04A41ABC287621AB004E740D /* IstanbulData.swift in Sources */,
+				04A41AB928762170004E740D /* IstanbulModel.swift in Sources */,
+				04A41AA728761D33004E740D /* IstanbulWonderApp.swift in Sources */,
+				04A41ABF28762474004E740D /* CardView.swift in Sources */,
+				04A41AC828762F6D004E740D /* GuideComponent.swift in Sources */,
+				04A41ACA287632C2004E740D /* GuideView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04A41AAF28761D37004E740D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A41AB028761D37004E740D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A41AB228761D37004E740D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IstanbulWonder/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A534NX7E6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IstanbulWonder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appdevelop.IstanbulWonder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A41AB328761D37004E740D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IstanbulWonder/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A534NX7E6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IstanbulWonder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appdevelop.IstanbulWonder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A41A9E28761D33004E740D /* Build configuration list for PBXProject "IstanbulWonder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A41AAF28761D37004E740D /* Debug */,
+				04A41AB028761D37004E740D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A41AB128761D37004E740D /* Build configuration list for PBXNativeTarget "IstanbulWonder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A41AB228761D37004E740D /* Debug */,
+				04A41AB328761D37004E740D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A41A9B28761D33004E740D /* Project object */;
+}
